@@ -264,7 +264,7 @@ function initQuickMessage() {
                 const subject = encodeURIComponent(`Message from ${name}`);
                 const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
                 
-                window.open(`mailto:Eman.shalabi.ca@gmail.com?subject=${subject}&body=${body}`, '_blank');
+                window.open(`mailto:Eshalabiy@gmail.com?subject=${subject}&body=${body}`, '_blank');
                 
                 // Reset form and close modal
                 quickMsgForm.reset();
